@@ -1,0 +1,35 @@
+git init
+git add .
+git commit -m "add index file"
+git branch -M main
+git remote add origin https://github.com/mahmoudm4/First-repo.git
+git push -u origin main
+
+git pull
+
+
+
+commit 3613a17404ab91d95feb7ef88965d93615a6b1b5 (HEAD -> main, origin/main)
+Merge: 3abdba8 c17d808
+Author: mohamedegila <mohammedegila@gmail.com>
+Date:   Sat Jan 2 10:30:53 2021 +0200
+
+    conflicts fixed
+
+commit 3abdba8d31d8dc9292c343045195d8cb9a71efa9
+Author: mohamedegila <mohammedegila@gmail.com>
+Date:   Sat Jan 2 10:28:42 2021 +0200
+
+    added Hello Message
+
+commit c17d80824d4eb9ae33cf6aad00bbef8bfea56721
+Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+Date:   Sat Jan 2 10:26:16 2021 +0200
+
+    hello from ahmed
+
+commit 31483b4d598b3e557efbddf0ea56cc3d6f3becc5
+Author: mahmoudm4 <mahmoudm4895@gmail.com>
+Date:   Sat Jan 2 10:14:09 2021 +0200
+
+    Mahmoud Edit
